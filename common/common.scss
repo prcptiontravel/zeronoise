@@ -2,6 +2,14 @@
 @import 'topic';
 @import 'topic-list';
 
+.custom-header-links .headerLink a {
+  font-weight: 600 !important;
+}
+
+.settings .setting.overridden.string input[type="text"], .settings .setting.overridden.string input[type="password"], .settings .setting.overridden.string textarea {
+  background-color: #ffffff !important;
+}
+
 // General 
 .btn {
   border-radius: 2rem;
