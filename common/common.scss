@@ -6,6 +6,15 @@
   font-weight: 600 !important;
 }
 
+.banner-box .button-container .close .d-button-label, .banner-box .button-container .toggle .d-button-label {
+  font-size: .6em;
+  color: rgba(255,255,255,.7) !important;
+}
+
+.topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
+  font-weight: 600 !important;
+}
+
 .settings .setting.overridden.string input[type="text"], .settings .setting.overridden.string input[type="password"], .settings .setting.overridden.string textarea {
   background-color: #ffffff !important;
 }
