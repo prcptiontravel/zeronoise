@@ -2,6 +2,12 @@
 @import 'topic';
 @import 'topic-list';
 
+
+.alert.alert-error {
+  background-color: #BE8733 !important;
+  color: white !important;
+}
+
 .custom-header-links .headerLink a {
   font-weight: 600 !important;
 }
