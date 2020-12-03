@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200,300,400;700&display=swap');
 
 @mixin badge ($color){
   color: $color;
@@ -113,7 +113,7 @@
   // --silver: silver;
   --main-background: var(--quaternary);
   --light-accent: var(--quaternary);
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Raleway", serif;
 }
 
 $font-size-large: 3rem;
