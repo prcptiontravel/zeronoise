@@ -6,9 +6,13 @@
   font-weight: 600 !important;
 }
 
-.banner-box .button-container .close .d-button-label, .banner-box .button-container .toggle .d-button-label {
-  font-size: .6em;
+.banner-box .button-container .close .d-button-label, .banner-box .button-container .toggle .d-button-label .banner-box .button-container .close svg, .banner-box .button-container .toggle svg {
+  font-size: .7em !important;
   color: rgba(255,255,255,.7) !important;
+}
+
+b, strong {
+  font-weight: 600 !important;
 }
 
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
@@ -17,6 +21,10 @@
 
 .settings .setting.overridden.string input[type="text"], .settings .setting.overridden.string input[type="password"], .settings .setting.overridden.string textarea {
   background-color: #ffffff !important;
+}
+
+.banner-box .button-container .close svg, .banner-box .button-container .toggle svg {
+    color: #646464;
 }
 
 // General 
