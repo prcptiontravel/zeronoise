@@ -2,6 +2,9 @@
 @import 'topic';
 @import 'topic-list';
 
+.badge-wrapper .badge-category .category-name {
+font-size: 2em !important;
+}
 
 .alert.alert-error {
   background-color: #BE8733 !important;
